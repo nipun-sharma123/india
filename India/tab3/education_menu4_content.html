@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://bootsnipp.com/iframe/VxmR -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <style type="text/css">
+    body{
+    background: url(../back.png);
+    background-color: #444;
+    background: url(../pinlayer2.png),url(../pinlayer1.png),url(../back.png);    
+}
+
+.vertical-offset-100{
+    padding-top:100px;
+}
+    </style>
+  
+    <script type="text/javascript">
+        window.alert = function(){};
+        var defaultCSS = document.getElementById('bootstrap-css');
+        function changeCSS(css){
+            if(css) $('head > link').filter(':first').replaceWith('<link rel="stylesheet" href="'+ css +'" type="text/css" />'); 
+            else $('head > link').filter(':first').replaceWith(defaultCSS); 
+        }
+        $( document ).ready(function() {
+          var iframe_height = parseInt($('html').height()); 
+          window.parent.postMessage( iframe_height, 'http://bootsnipp.com');
+        });
+    </script>
+</head>
+<body style="background-position: 60px 26px, 32px 50%;">
+   
+<div class="container">
+    <div class="row vertical-offset-100">
+        <div class="col-md-4 col-md-offset-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <center><h1 class="panel-title">Scholarships</h1></center>
+                </div>
+                <div class="panel-body" style="background-color: white;">
+                <center><h4> <font color="blue"> NATIONAL SCHOLARSHIPS FOR TALENTED CHILDREN FROM RURAL AREAS  </font></h4></center>
+                    <p>
+                A student studying in a school in a community development block in class VI to VIII is eligible to compete for the scholarship.Category-wise distribution of 43,000 scholarships.
+                    </p>
+                    <center><h4> <font color="blue"> 2.National Scholarship for Persons with Disabilities </font></h4></center>
+                    <p>
+                Indian students with at least 40% disabilities are awarded
+Five hundred scholarships that range from Rs. 400 to 1,000 per month to be given annually through institutions, depending on the study undertaken
+
+                    </p>
+
+                    <center><h4> <font color="blue"> 3.National Talent Search Scheme by NCERT </font></h4></center>
+                    <p>
+                All students of Indian nationality studying in Class VIII in any type of recognised school selected through a two-stage process: the individual State/UT and the NCERT                    </p>
+
+                    <center><h4> <font color="blue"> 4. Kishore Vaigyanik Protsahan Yojana</font></h4></center>
+                    <p>
+                Kishore Vaigyanik Protsahan Yojana (KVPY) is a scholarship program funded by the Department of Science and Technology of the Government of India, aimed at encouraging students to take up research careers in the areas of basic sciences, engineering and medicine. <br>
+The advertisement for the KVPY Fellowship appears in all the national dailies normally on the Technology Day (May 11) and the Second Sunday of July every year.
+
+                    </p>
+                    <center><h4> <font color="blue"> 5.National Merit-cum- Means Scholarship Scheme </font></h4></center>
+                    <p>
+                Provided to Meritorious students from low income families, securing a minimum of 80% of marks in 10+2 pattern or equivalent and not belonging to the creamy layer.
+                    </p>
+
+
+
+
+
+
+                     <form accept-charset="UTF-8" role="form">
+                    <fieldset>
+                      
+                      <hr>
+                         <a class="btn btn-lg btn-danger btn-block" href="education_menu.html">Go Back</a>
+                        <a class="btn btn-lg btn-warning btn-block" href="../index.html">Home</a>
+                      </fieldset>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+    <script type="text/javascript">
+    $(document).ready(function(){
+  $(document).mousemove(function(e){
+     TweenLite.to($('body'), 
+        .5, 
+        { css: 
+            {
+                backgroundPosition: ""+ parseInt(event.pageX/8) + "px "+parseInt(event.pageY/'12')+"px, "+parseInt(event.pageX/'15')+"px "+parseInt(event.pageY/'15')+"px, "+parseInt(event.pageX/'30')+"px "+parseInt(event.pageY/'30')+"px"
+            }
+        });
+  });
+});
+    </script>
+
+
+</body></html>

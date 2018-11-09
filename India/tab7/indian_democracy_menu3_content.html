@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://bootsnipp.com/iframe/VxmR -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>Title</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<style type="text/css">
+body{
+    background: url(../back.png);
+    background-color: #444;
+    background: url(../pinlayer2.png),url(../pinlayer1.png),url(../back.png);    
+}
+
+.vertical-offset-100{
+    padding-top:100px;
+}
+</style>
+
+<script type="text/javascript">
+window.alert = function(){};
+var defaultCSS = document.getElementById('bootstrap-css');
+function changeCSS(css){
+    if(css) $('head > link').filter(':first').replaceWith('<link rel="stylesheet" href="'+ css +'" type="text/css" />'); 
+    else $('head > link').filter(':first').replaceWith(defaultCSS); 
+}
+$( document ).ready(function() {
+  var iframe_height = parseInt($('html').height()); 
+  window.parent.postMessage( iframe_height, 'http://bootsnipp.com');
+});
+</script>
+</head>
+<body style="background-position: 60px 26px, 32px 50%;">
+
+    <div class="container">
+        <div class="row vertical-offset-100">
+            <div class="col-md-4 col-md-offset-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <center><h3 class="panel-title">States-Capital-Language</h3></center>
+                    </div>
+                    <div class="panel-body" style="background-color: white;">
+                              <table style="width:150%">
+                                <tr>
+                                 <td><b><big><font color="blue">State</font></big></td>
+                                 <td><b><big><font color="blue">Capital</font></big></td>
+                                 <td><b><big><font color="blue">Language</font></big></td>
+</tr>
+<tr><td>Andra Pradesh</td><td> Hyderabad </td><td>Telugu and Urdu</td></tr>
+<tr><td>Arunachal Pradesh </td><td>Itanager</td><td>  Miji,Bangini-Nishi.</td></tr>
+<tr><td>Assam </td><td>Dispur </td><td> Assamese</td></tr>
+<tr><td>Bihar</td><td> Patna </td><td>Hindi</td></tr>
+<tr><td>Chhattisgarh</td><td>  Raipur </td><td> Hindi</td></tr>
+<tr><td>Goa </td><td>Panaji </td><td> Marathi and Konkani</td></tr>
+<tr><td>Gujarat </td><td>Gandhinagar</td><td> Gujarati</td></tr>
+<tr><td>Haryana </td><td>Chandigarh  </td><td>Hindi</td></tr>
+<tr><td>Himachal Pradesh </td><td> Shimla </td><td> Hindi and Pahari</td></tr>
+<tr><td>Mizoram</td><td> Aizawl </td><td> Mizo and English</td></tr>
+<tr><td>Jammu & Kashmir</td><td> Srinagar (Summer) Jammu (Winter) </td><td> Kashmiri,Dogri, Urdu, Ladakhi, 
+Pahari</td></tr>
+<tr><td>Jharkhand</td><td> Ranchi  </td><td>Hindi</td></tr>
+<tr><td>Karnataka</td><td> Bangalore</td><td> Kannda</td></tr>
+<tr><td>Kerala</td><td>  Trivandrum </td><td> Malayalam</td></tr>
+<tr><td>Madhya Pradesh  </td><td>Bhopal</td><td>  Hindi</td></tr>
+<tr><td>Maharashtra</td><td> Bombay </td><td> Marathi</td></tr>
+<tr><td>Manipur</td><td> Imphal </td><td> Manipuri</td></tr>
+<tr><td>Meghalaya </td><td>Shillong </td><td> Khasi, Jaintia and Garo</td></tr>
+<tr><td>Nagaland</td><td>  Kohima </td><td> Ao, Konyak, Angami, Sema and Lotha</td></tr>
+<tr><td>Orissa </td><td> Bhubaneswar</td><td> Oriya</td></tr>
+<tr><td>Punjab </td><td> Chandigarh </td><td> Punjabi</td></tr>
+<tr><td>Rajasthan </td><td>Jaipur</td><td>  Rajasthani and Hindi</td></tr>
+<tr><td>Sikkim </td><td> Gangtok </td><td>Bhutia, Hindi, Nepali, Lepcha, Limbu</td></tr>
+<tr><td>Tamil Nadu </td><td> Chennai </td><td>Tamil</td></tr>
+<tr><td>Tripura </td><td>Agartala </td><td> Bengali, Tripuri, Manipuri, Kakborak</td></tr>
+<tr><td>Uttar Pradesh</td><td> Lucknow</td><td> Hindi</td></tr>
+<tr><td>Uttaranchal</td><td> Dehra Dun</td><td> Hindi</td></tr>
+<tr><td>West Bengal </td><td>Calcutta </td><td> Bengali</td></tr>
+                                </tr>
+                              </table>
+
+                        <form accept-charset="UTF-8" role="form">
+                            <fieldset>
+
+                              <hr>
+                              <a class="btn btn-lg btn-danger btn-block" href="indian_democracy_menu.html">Go Back</a>
+                              <a class="btn btn-lg btn-warning btn-block" href="../index.html">Home</a>
+                          </fieldset>
+                      </form>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+  </div>
+  <script type="text/javascript">
+  $(document).ready(function(){
+      $(document).mousemove(function(e){
+       TweenLite.to($('body'), 
+        .5, 
+        { css: 
+            {
+                backgroundPosition: ""+ parseInt(event.pageX/8) + "px "+parseInt(event.pageY/'12')+"px, "+parseInt(event.pageX/'15')+"px "+parseInt(event.pageY/'15')+"px, "+parseInt(event.pageX/'30')+"px "+parseInt(event.pageY/'30')+"px"
+            }
+        });
+   });
+  });
+  </script>
+
+
+</body></html>

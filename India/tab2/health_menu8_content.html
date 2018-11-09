@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://bootsnipp.com/iframe/VxmR -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <style type="text/css">
+    body{
+    background: url(../back.png);
+    background-color: #444;
+    background: url(../pinlayer2.png),url(../pinlayer1.png),url(../back.png);    
+}
+
+.vertical-offset-100{
+    padding-top:100px;
+}
+    </style>
+  
+    <script type="text/javascript">
+        window.alert = function(){};
+        var defaultCSS = document.getElementById('bootstrap-css');
+        function changeCSS(css){
+            if(css) $('head > link').filter(':first').replaceWith('<link rel="stylesheet" href="'+ css +'" type="text/css" />'); 
+            else $('head > link').filter(':first').replaceWith(defaultCSS); 
+        }
+        $( document ).ready(function() {
+          var iframe_height = parseInt($('html').height()); 
+          window.parent.postMessage( iframe_height, 'http://bootsnipp.com');
+        });
+    </script>
+</head>
+<body style="background-position: 60px 26px, 32px 50%;">
+   
+<div class="container">
+    <div class="row vertical-offset-100">
+        <div class="col-md-4 col-md-offset-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <center><h3 class="panel-title">Government Schemes</h3></center>
+                </div>
+                <div class="panel-body" style="background-color: white;">
+                    <p>
+                           The National Rural Health Mission (NRHM) is an initiative undertaken by the government of India to address the health needs of underserved rural areas.
+                            Some of the major initiatives under National Health Mission (NHM) are as follows:
+                            <br><b>Accredited Social Health Activists :</b>Community Health volunteers called Accredited Social Health Activists (ASHAs) have been engaged under the mission for establishing a link between the community and the health system. ASHA is the first port of call for any health related demands of deprived sections of the population, especially women and children, who find it difficult to access health services in rural areas. ASHA Programme is expanding across States and has particularly been successful in bringing people back to Public Health System and has increased the utilization of outpatient services, diagnostic facilities, institutional deliveries and inpatient care.
+                           <br><b>Rogi Kalyan Samiti (Patient Welfare Committee) / Hospital Management Society:</b>The Rogi Kalyan Samiti (Patient Welfare Committee) / Hospital Management Society is a management structure that acts as a group of trustees for the hospitals to manage the affairs of the hospital. Financial assistance is provided to these Committees through untied fund to undertake activities for patient welfare.
+                           <br><b>Untied Grants to Sub-Centres:</b>Untied Grants to Sub-Centers have been used to fund grass-root improvements in health care. Some examples include:
+                            <br>• Improved efficacy of ANMs in the field that can now undertake better antenatal care and other health care services.
+                            <br>• Village Health Sanitation and Nutrition Committees (VHSNC) have used untied grants to increase their involvement in their local communities to address the needs of poor households and children.
+
+                           <br><b>Health care contractors:</b>NRHM has provided health care contractors to underserved areas, and has been involved in training to expand the skill set of doctors at strategically located facilities identified by the states. Similarly, due importance is given to capacity building of nursing staff and auxiliary workers such as ANMs. NHM also supports co-location of AYUSH services in Health facilities such as PHCs, CHCs and District Hospitals.
+                           <br><b>Janani Suraksha Yojana (JSY)</b>
+                           <br>•   JSY is a latest initiative by the govt. which is implemented in all 28 states and UTs of India. The initiative entitles all pregnant women delivering in public health institutions to absolutely free and no expense delivery, including caesarean section.
+                            <br>•   The entitlements include free drugs and consumables, free diet up to 3 days during normal delivery and up to 7 days for C-section, free diagnostics, and free blood wherever required. This initiative also provides for free transport from home to institution, between facilities in case of a referral and drop back home. Similar entitlements have been put in place for all sick newborns accessing public health institutions for treatment till 30 days after birth.This has now been expanded to cover sick infants.
+                            
+                           <br><b>National Mobile Medical Units (NMMUs): </b>Many un-served areas have been covered through National Mobile Medical Units (NMMUs).
+                           <br><b>National Ambulance Services:</b>Free ambulance services are provided in every nook and corner of the country connected with a toll free number and reaches within 30 minutes of the call.
+                           <br><b>District Hospital and Knowledge Center (DHKC):</b>As a new initiative District Hospitals are being strengthened to provide Multi-specialty health care including dialysis care, intensive cardiac care, cancer treatment, mental illness, emergency medical and trauma care etc. These hospitals would act as the knowledge support for clinical care in facilities below it through a tele-medicine center located in the district headquarters and also developed as centers for training of paramedics and nurses.
+                            <br><b>National Iron+ Initiative:</b>The National Iron+ Initiative is an attempt to look at Iron Deficiency Anaemia in which beneficiaries will receive iron and folic acid supplementation irrespective of their Iron/Hb status. This initiative will bring together existing programmes (IFA supplementation for: pregnant and lactating women and; children in the age group of 6–60 months) and introduce new age groups.
+
+                    
+
+                    </p>
+                     <form accept-charset="UTF-8" role="form">
+                    <fieldset>
+                      
+                      <hr>
+                         <a class="btn btn-lg btn-danger btn-block" href="health_menu.html">Go Back</a>
+                         <a class="btn btn-lg btn-warning btn-block" href="../index.html">Home</a>
+                      </fieldset>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+    <script type="text/javascript">
+    $(document).ready(function(){
+  $(document).mousemove(function(e){
+     TweenLite.to($('body'), 
+        .5, 
+        { css: 
+            {
+                backgroundPosition: ""+ parseInt(event.pageX/8) + "px "+parseInt(event.pageY/'12')+"px, "+parseInt(event.pageX/'15')+"px "+parseInt(event.pageY/'15')+"px, "+parseInt(event.pageX/'30')+"px "+parseInt(event.pageY/'30')+"px"
+            }
+        });
+  });
+});
+    </script>
+
+
+</body></html>

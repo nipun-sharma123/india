@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://bootsnipp.com/iframe/VxmR -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <style type="text/css">
+    body{
+    background-image: url('agr.png');
+     background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.vertical-offset-100{
+    padding-top:100px;
+}
+    </style>
+  
+    <script type="text/javascript">
+        window.alert = function(){};
+        var defaultCSS = document.getElementById('bootstrap-css');
+        function changeCSS(css){
+            if(css) $('head > link').filter(':first').replaceWith('<link rel="stylesheet" href="'+ css +'" type="text/css" />'); 
+            else $('head > link').filter(':first').replaceWith(defaultCSS); 
+        }
+        $( document ).ready(function() {
+          var iframe_height = parseInt($('html').height()); 
+          window.parent.postMessage( iframe_height, 'http://bootsnipp.com');
+        });
+    </script>
+</head>
+<body style="background-position: 60px 26px, 32px 50%;">
+   
+<div class="container">
+    <div class="row vertical-offset-100">
+        <div class="col-md-4 col-md-offset-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <center><h1 class="panel-title"><b>Technical equipments for agriculture</b></h4></center>
+                </div>
+                <div class="panel-body" style="background-color: white;">
+               
+                     <h4><i>Aam Aadmi Bima Yojana</i></h4>
+                     <p>
+                     Death and disability insurance for rural landless households 
+                     </p>
+                     <h4><i>Sampoorna Grameen Rozgar Yojana</i></h4>
+                     <p>Providing additional wage employment and food security, alongside creation of durable community assets in rural areas</p>
+
+                     <h4><i>Central Government Health Scheme</i></h4>
+<p>comprehensive medical care facilities to Central Government employees and their family members</p>
+                         <h4><i>National Service Scheme</i></h4>
+                         <p>
+                           Personality development through social (or community) service 
+                        </p>
+                     <h4><i>National Literacy Mission Programme</i></h4>
+<p>Make 80 million adults in the age group of 15 - 35 literate</p>
+ <h4><i>Janani Suraksha Yojana</i></h4>
+<p>One-time cash incentive to pregnant women for institutional/home births through skilled assistance</p>
+
+
+                     <form accept-charset="UTF-8" role="form">
+                    <fieldset>
+                      
+                      <hr>
+                         <a class="btn btn-lg btn-danger btn-block" href="agriculture_menu.html">Go Back</a>
+                         <a class="btn btn-lg btn-warning btn-block" href="../index.html">Home</a>
+
+                      </fieldset>
+                    </form>
+                   
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+    <script type="text/javascript">
+    $(document).ready(function(){
+  $(document).mousemove(function(e){
+     TweenLite.to($('body'), 
+        .5, 
+        { css: 
+            {
+                backgroundPosition: ""+ parseInt(event.pageX/8) + "px "+parseInt(event.pageY/'12')+"px, "+parseInt(event.pageX/'15')+"px "+parseInt(event.pageY/'15')+"px, "+parseInt(event.pageX/'30')+"px "+parseInt(event.pageY/'30')+"px"
+            }
+        });
+  });
+});
+    </script>
+
+
+</body></html>

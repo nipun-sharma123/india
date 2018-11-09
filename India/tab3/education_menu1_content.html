@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://bootsnipp.com/iframe/VxmR -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <style type="text/css">
+    body{
+    background: url(../back.png);
+    background-color: #444;
+    background: url(../pinlayer2.png),url(../pinlayer1.png),url(../back.png);    
+}
+
+.vertical-offset-100{
+    padding-top:100px;
+}
+    </style>
+  
+    <script type="text/javascript">
+        window.alert = function(){};
+        var defaultCSS = document.getElementById('bootstrap-css');
+        function changeCSS(css){
+            if(css) $('head > link').filter(':first').replaceWith('<link rel="stylesheet" href="'+ css +'" type="text/css" />'); 
+            else $('head > link').filter(':first').replaceWith(defaultCSS); 
+        }
+        $( document ).ready(function() {
+          var iframe_height = parseInt($('html').height()); 
+          window.parent.postMessage( iframe_height, 'http://bootsnipp.com');
+        });
+    </script>
+</head>
+<body style="background-position: 60px 26px, 32px 50%;">
+   
+<div class="container">
+    <div class="row vertical-offset-100">
+        <div class="col-md-4 col-md-offset-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <center><h1 class="panel-title">Govt Schemes</h1></center>
+                </div>
+                <div class="panel-body" style="background-color: white;">
+                    <center><h4>  <font color="blue"> National Literacy Mission Programme</font></h4></center>
+                    <p>
+                        In a country where 25.96 % of the people are illiterate, NLM has its objective of 100 percent literacy, the National Literacy Mission takes the help of various NGOs existing across the country
+                    </p>
+                    <center><h4> <font color="blue">  Kasturba Gandhi Balika Vidyalaya</font></h4></center>
+                    <p>
+                       The Kasturba Gandhi Balika Vidyalaya scheme was introducedto provide educational facilities for girls belonging to Scheduled Castes, Scheduled Tribes, Other Backward Classes, minority communities and families below the poverty line in Educationally Backward Blocks.
+                    </p>
+
+                    <center><h4><font color="blue">Sarva Shiksha Abhiyan(SSA) </font></h4></center>
+                    <p>(SSA), is an Indian Government programme aimed at the universalisation of elementary education "in a time bound manner",  making free and compulsory education to children of ages 6–14 (estimated to be 205 million in number in 2001) a fundamental right. The programme was pioneered by Atal Bihari Vajpaye.
+                    </p>
+                    <center><h4><font color="blue"> Inclusive Education for Disabled at Secondary stage: </font> </h4></center>
+                    <p>
+                        The Scheme ofInclusive Education for Disabled at Secondary Stage (IEDSS) has been launched from the year 2009-10. This Scheme replaces the earlier scheme of Integrated Education for Disabled Children (IEDC) and would provide assistance for the inclusive education of the disabled children in classes IX-XII.
+
+                    </p>
+                    <center><h4><font color="blue"> Midday Meal Scheme</font> </h4></center>
+                    <p>
+                        The Mid Day Meal Scheme is a programme of the Government of India designed to improve the nutritional status of school-age children nation wide.The programme supplies free lunches on working days for children in Primary and Upper Primary Classes in Government Schools.
+                    </p>
+                    <center><h4> <font color="blue">Adult Education and Skill Development Schemes </font></h4></center>
+                    <p>
+                        Adult Education aims at extending educational options to those adults, who have lost the opportunity and have crossed the age of formal education, but now feel a need for learning of any type, including, basis education (literacy), skill development (Vocational Education) etc
+                    </p>
+                     <center><h4> <font color="blue"> Scheme for Providing Quality Education for Madrsas(SPQEM) </font></h4></center>
+                    <p>
+                        SPQEM seeks to bring about qualitative improvement in madrsas to enable Muslim children attain standards of the national education system in formal education subjects. It aims to strengthen capacities in Madrsas for teaching of the formal curriculum subjects
+                    </p>
+                    
+                     <form accept-charset="UTF-8" role="form">
+                    <fieldset>
+                      
+                      <hr>
+                         <a class="btn btn-lg btn-danger btn-block" href="health_menu.html">Go Back</a>
+                         <a class="btn btn-lg btn-warning btn-block" href="../index.html">Home</a>
+                      </fieldset>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+    <script type="text/javascript">
+    $(document).ready(function(){
+  $(document).mousemove(function(e){
+     TweenLite.to($('body'), 
+        .5, 
+        { css: 
+            {
+                backgroundPosition: ""+ parseInt(event.pageX/8) + "px "+parseInt(event.pageY/'12')+"px, "+parseInt(event.pageX/'15')+"px "+parseInt(event.pageY/'15')+"px, "+parseInt(event.pageX/'30')+"px "+parseInt(event.pageY/'30')+"px"
+            }
+        });
+  });
+});
+    </script>
+
+
+</body></html>
