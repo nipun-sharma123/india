@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://bootsnipp.com/iframe/VxmR -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <style type="text/css">
+    body{
+    background: url(../back.png);
+    background-color: #444;
+    background: url(../pinlayer2.png),url(../pinlayer1.png),url(../back.png);    
+}
+
+.vertical-offset-100{
+    padding-top:100px;
+}
+    </style>
+  
+    <script type="text/javascript">
+        window.alert = function(){};
+        var defaultCSS = document.getElementById('bootstrap-css');
+        function changeCSS(css){
+            if(css) $('head > link').filter(':first').replaceWith('<link rel="stylesheet" href="'+ css +'" type="text/css" />'); 
+            else $('head > link').filter(':first').replaceWith(defaultCSS); 
+        }
+        $( document ).ready(function() {
+          var iframe_height = parseInt($('html').height()); 
+          window.parent.postMessage( iframe_height, 'http://bootsnipp.com');
+        });
+    </script>
+</head>
+<body style="background-position: 60px 26px, 32px 50%;">
+   
+<div class="container">
+    <div class="row vertical-offset-100">
+        <div class="col-md-4 col-md-offset-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <center><h3 class="panel-title">Kho-Kho</h3></center>
+                </div>
+                <div class="panel-body" style="background-color: white;">
+                    <p>
+                        Kho Kho is a tag sport played by teams of twelve players who try to avoid being touched by members of the opposing team, only 9 players of the team enter the field.[1] It is one of the two most popular traditional tag games of South Asia, the other being Kabbadi.[2] Apart from South Asia (mainly Bangladesh, India and Pakistan), it is also played in South Africa.[3]
+                        Rules[edit]
+<p>1.Each team consists of 12 players, but only 9 players take the field.</p>
+<p>2.A match consists of two innings. An inning consists of chasing and running turns of 9 minutes each.</p>
+Then, 1 team sits/kneels in the middle of the court, in a row, with adjacent members facing opposite directions.
+<p>3.The chasers end in the shortest time possible.</p>
+The team that takes the shortest time to tag/tap all the opponents in the field, wins.
+Then players can take off the field.
+<p>4.They must sit in a zig zag manner.</p>
+                    </p>
+                     <form accept-charset="UTF-8" role="form">
+                    <fieldset>
+                      
+                      <hr>
+                         <a class="btn btn-lg btn-danger btn-block" href="sports_menu.html">Go Back</a>
+                         <a class="btn btn-lg btn-warning btn-block" href="../index.html">Home</a>
+                      </fieldset>
+                    </form>
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+    <script type="text/javascript">
+    $(document).ready(function(){
+  $(document).mousemove(function(e){
+     TweenLite.to($('body'), 
+        .5, 
+        { css: 
+            {
+                backgroundPosition: ""+ parseInt(event.pageX/8) + "px "+parseInt(event.pageY/'12')+"px, "+parseInt(event.pageX/'15')+"px "+parseInt(event.pageY/'15')+"px, "+parseInt(event.pageX/'30')+"px "+parseInt(event.pageY/'30')+"px"
+            }
+        });
+  });
+});
+    </script>
+
+
+</body></html>

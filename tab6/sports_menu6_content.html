@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://bootsnipp.com/iframe/VxmR -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <style type="text/css">
+    body{
+    background: url(../back.png);
+    background-color: #444;
+    background: url(../pinlayer2.png),url(../pinlayer1.png),url(../back.png);    
+}
+
+.vertical-offset-100{
+    padding-top:100px;
+}
+    </style>
+  
+    <script type="text/javascript">
+        window.alert = function(){};
+        var defaultCSS = document.getElementById('bootstrap-css');
+        function changeCSS(css){
+            if(css) $('head > link').filter(':first').replaceWith('<link rel="stylesheet" href="'+ css +'" type="text/css" />'); 
+            else $('head > link').filter(':first').replaceWith(defaultCSS); 
+        }
+        $( document ).ready(function() {
+          var iframe_height = parseInt($('html').height()); 
+          window.parent.postMessage( iframe_height, 'http://bootsnipp.com');
+        });
+    </script>
+</head>
+<body style="background-position: 60px 26px, 32px 50%;">
+   
+<div class="container">
+    <div class="row vertical-offset-100">
+        <div class="col-md-4 col-md-offset-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <center><h3 class="panel-title">Tennis</h3></center>
+                </div>
+                <div class="panel-body"style="background-color: white;">
+                    <p>
+                        Tennis is a racquet sport that can be played individually against a single opponent (singles) or between two teams of two players each (doubles). Each player uses a racquet that is strung with cord to strike a hollow rubber ball covered with felt over or around a net and into the opponent's court. The object of the game is to play the ball in such a way that the opponent is not able to play a good return. The opponent who is unable to return the ball will not gain a point, while the opposite opponent will.
+
+Tennis is an Olympic sport and is played at all levels of society and at all ages. The sport can be played by anyone who can hold a racquet, including wheelchair users. The modern game of tennis originated in Birmingham, England, in the late 19th century as "lawn tennis".[1] It had close connections both to various field ("lawn") games such as croquet and bowls as well as to the older racquet sport of real tennis. During most of the 19th-century in fact, the term "tennis" referred to real tennis, not lawn tennis: for example, in Disraeli's novel Sybil (1845), Lord Eugene De Vere announces that he will "go down to Hampton Court and play tennis."[2]
+                    </p>
+                     <form accept-charset="UTF-8" role="form">
+                    <fieldset>
+                      
+                      <hr>
+                         <a class="btn btn-lg btn-danger btn-block" href="sports_menu.html">Go Back</a>
+                         <a class="btn btn-lg btn-warning btn-block" href="../index.html">Home</a>
+                      </fieldset>
+                    </form>
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+    <script type="text/javascript">
+    $(document).ready(function(){
+  $(document).mousemove(function(e){
+     TweenLite.to($('body'), 
+        .5, 
+        { css: 
+            {
+                backgroundPosition: ""+ parseInt(event.pageX/8) + "px "+parseInt(event.pageY/'12')+"px, "+parseInt(event.pageX/'15')+"px "+parseInt(event.pageY/'15')+"px, "+parseInt(event.pageX/'30')+"px "+parseInt(event.pageY/'30')+"px"
+            }
+        });
+  });
+});
+    </script>
+
+
+</body></html>

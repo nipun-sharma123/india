@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://bootsnipp.com/iframe/VxmR -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <style type="text/css">
+    body{
+    background: url(../back.png);
+    background-color: #444;
+    background: url(../pinlayer2.png),url(../pinlayer1.png),url(../back.png);    
+}
+
+.vertical-offset-100{
+    padding-top:100px;
+}
+    </style>
+  
+    <script type="text/javascript">
+        window.alert = function(){};
+        var defaultCSS = document.getElementById('bootstrap-css');
+        function changeCSS(css){
+            if(css) $('head > link').filter(':first').replaceWith('<link rel="stylesheet" href="'+ css +'" type="text/css" />'); 
+            else $('head > link').filter(':first').replaceWith(defaultCSS); 
+        }
+        $( document ).ready(function() {
+          var iframe_height = parseInt($('html').height()); 
+          window.parent.postMessage( iframe_height, 'http://bootsnipp.com');
+        });
+    </script>
+</head>
+<body style="background-position: 60px 26px, 32px 50%;">
+   
+<div class="container">
+    <div class="row vertical-offset-100">
+        <div class="col-md-4 col-md-offset-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <center><h3 class="panel-title">Technology</h3></center>
+                </div>
+                <div class="panel-body">
+                    <p>
+                        <b>Entrepreneurship</b> is the process of starting a business or other organization. You have to develop a plan about how many workers and how much money you need, whom you will sell, etc.Once you are ready with a business plan, you can take monetary help from banks or govt. agencies like NIF.Therefore, every village adult should have a bank account. Do NOT borrow money from moneylenders.<br>
+                        Several people in the village can come together and pool in their resources to start an enterprise.<br>
+                        <h4>1.Knitting and Stitching</h4>
+                        <p>You would require good tailors, few sewing machines and some other stuff like thread etc.Initially you do not have to hire anyone as you could start alone and wait for customers to come.</p>
+                        <h4>2. Food Catering and Packaging</h4>
+                        <p>Next great thing that a woman can excel is the catering of food and beverages.If you live on the outskirts of some rural area then you could take orders & start a Tiffin services.You can cater to the people who work from 9 to 5. If your food is good at right price then you might get orders for thousands customers daily.</p>
+                       <h4> 3. Data Entry Operator – Online and Offline</h4>
+                        <p>You could hire few data entry operators and input data into the computers given by a particular company.Companies want to outsource their work to others hence you could take a project and complete their work.You could run your data entry business online or offline.</p>
+                        <h4>4. Papad/Pickle making</h4>
+                        <p>Men and women of the village can come together and start a papad-making company. You can take orders from vendors and sellers in the the nearby town.</p>
+
+
+                    </p>
+                     <form accept-charset="UTF-8" role="form">
+                    <fieldset>
+                      
+                      <hr>
+                         <a class="btn btn-lg btn-danger btn-block" href="jobs_menu.html">Go Back</a>
+                         <a class="btn btn-lg btn-warning btn-block" href="../index.html">HOME</a>
+                      </fieldset>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+    <script type="text/javascript">
+    $(document).ready(function(){
+  $(document).mousemove(function(e){
+     TweenLite.to($('body'), 
+        .5, 
+        { css: 
+            {
+                backgroundPosition: ""+ parseInt(event.pageX/8) + "px "+parseInt(event.pageY/'12')+"px, "+parseInt(event.pageX/'15')+"px "+parseInt(event.pageY/'15')+"px, "+parseInt(event.pageX/'30')+"px "+parseInt(event.pageY/'30')+"px"
+            }
+        });
+  });
+});
+    </script>
+
+
+</body></html>

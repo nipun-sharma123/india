@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://bootsnipp.com/iframe/VxmR -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <style type="text/css">
+    body{
+    background: url(../back.png);
+    background-color: #444;
+    background: url(../pinlayer2.png),url(../pinlayer1.png),url(../back.png);    
+}
+
+.vertical-offset-100{
+    padding-top:100px;
+}
+    </style>
+  
+    <script type="text/javascript">
+        window.alert = function(){};
+        var defaultCSS = document.getElementById('bootstrap-css');
+        function changeCSS(css){
+            if(css) $('head > link').filter(':first').replaceWith('<link rel="stylesheet" href="'+ css +'" type="text/css" />'); 
+            else $('head > link').filter(':first').replaceWith(defaultCSS); 
+        }
+        $( document ).ready(function() {
+          var iframe_height = parseInt($('html').height()); 
+          window.parent.postMessage( iframe_height, 'http://bootsnipp.com');
+        });
+    </script>
+</head>
+<body style="background-position: 60px 26px, 32px 50%;">
+   
+<div class="container">
+    <div class="row vertical-offset-100">
+        <div class="col-md-4 col-md-offset-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <center><h1 class="panel-title">Syllabus for Senior Secondary</h1></center>
+                </div>
+                <div class="panel-body" style="background-color: white;">
+                  <h4>Physics</h4>
+                  <p>Motion, force and Energy,
+Properties of Matter,
+Heat and Thermodynamics,
+Electricity and Magnetism,
+Oscillations and ,
+Optics and Optical Instruments,
+Atoms and Nuclei,
+Semiconductors and their applications
+</p>
+                   <h4>Chemistry</h4>
+                  <p>Atom Molecule and
+Chemical Arithmatics,
+Atomic Structure and Chemical Bonding,
+States of Matter,
+Chemical Energetics,
+Chemical DyChemical Dynamics,
+Chemistry of Element,
+Chemistry of Organic Compounds,
+Environmental Chemisty,
+Chemistry and Industry
+</p>
+                   <h4>Biology</h4>
+                  <p>Diversity and evolution of life,Cell, Cell functions and Tissues,Functional morphology and Lifeprocesses in plants ,Functional morphology and Lifeprocesses in animals, Reproduction and Development, Heredity and Genetics, Population Explosion and Family Planning, Environmental Biology,Tools and Techniques in Biology</p>
+                   <h4>Mathematics</h4>
+                  <p>Complex Numbers and Quadratic Equation, 
+Determinants and Matrice, 
+Permutations and Combination, 
+Sequences and Serie, 
+Trigonometr, 
+Coordinate Geometr, 
+Differential Calculu, 
+Integral Calculus , 
+Statistics and Probability, 
+Vectors and Analytical Solid Geometry, 
+Linear Programming </p>
+                                   
+                                 
+            
+                     <form accept-charset="UTF-8" role="form">
+                    <fieldset>
+                      
+                      <hr>
+                         <a class="btn btn-lg btn-danger btn-block" href="education_menu.html">Go Back</a>
+                        <a class="btn btn-lg btn-warning btn-block" href="../index.html">Home</a>
+                      </fieldset>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+    <script type="text/javascript">
+    $(document).ready(function(){
+  $(document).mousemove(function(e){
+     TweenLite.to($('body'), 
+        .5, 
+        { css: 
+            {
+                backgroundPosition: ""+ parseInt(event.pageX/8) + "px "+parseInt(event.pageY/'12')+"px, "+parseInt(event.pageX/'15')+"px "+parseInt(event.pageY/'15')+"px, "+parseInt(event.pageX/'30')+"px "+parseInt(event.pageY/'30')+"px"
+            }
+        });
+  });
+});
+    </script>
+
+
+</body></html>

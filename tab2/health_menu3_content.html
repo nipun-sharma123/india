@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://bootsnipp.com/iframe/VxmR -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <style type="text/css">
+    body{
+    background: url(../back.png);
+    background-color: #444;
+    background: url(../pinlayer2.png),url(../pinlayer1.png),url(../back.png);    
+}
+
+.vertical-offset-100{
+    padding-top:100px;
+}
+    </style>
+  
+    <script type="text/javascript">
+        window.alert = function(){};
+        var defaultCSS = document.getElementById('bootstrap-css');
+        function changeCSS(css){
+            if(css) $('head > link').filter(':first').replaceWith('<link rel="stylesheet" href="'+ css +'" type="text/css" />'); 
+            else $('head > link').filter(':first').replaceWith(defaultCSS); 
+        }
+        $( document ).ready(function() {
+          var iframe_height = parseInt($('html').height()); 
+          window.parent.postMessage( iframe_height, 'http://bootsnipp.com');
+        });
+    </script>
+</head>
+<body style="background-position: 60px 26px, 32px 50%;">
+   
+<div class="container">
+    <div class="row vertical-offset-100">
+        <div class="col-md-4 col-md-offset-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <center><h3 class="panel-title">Vaccines</h3></center>
+                </div>
+                <div class="panel-body" style="background-color: white;">
+                    <p>
+                        •   Under the Universal Immunization Programme, Government of India is providing vaccination to prevent seven vaccine preventable diseases i.e.
+                        Diphtheria, Pertussis, Tetanus, Polio, Measles, severe form of Childhood Tuberculosis and Hepatitis B
+
+                        <br>The vaccination schedule under the UIP is:</br>
+                        <br>1.BCG (Bacillus Calmette Guerin) 1 dose at Birth (upto 1 year if not given earlier)</br>
+                        <br>2.DPT (Diphtheria, Pertussis and Tetanus Toxoid) 5 doses; Three primary doses at 6,10,14 weeks and two booster doses at 16-24 months and 5 Years of age</br> 
+                       <br>3.OPV (Oral Polio Vaccine) 5 doses; 0 dose at birth, three primary doses at 6,10 and 14 weeks and one booster dose at 16-24 months of age
+                        </br><br>4.Hepatitis B vaccine 4 doses; 0 dose within 24 hours of birth and three doses at 6, 10 and 14 weeks of age.
+                        </br><br>5.Measles 2 doses; first dose at 9-12 months and second dose at 16-24months of age
+                        </br><br>6.TT (Tetanus Toxoid) 2 doses at 10 years and 16 years of age
+                        
+                        </br><br>7.TT – for pregnant woman two doses or one dose if previously vaccinated within 3 Year
+                    
+
+                    </p>
+                     <form accept-charset="UTF-8" role="form">
+                    <fieldset>
+                      
+                      <hr>
+                         <a class="btn btn-lg btn-danger btn-block" href="health_menu.html">Go Back</a>
+                         <a class="btn btn-lg btn-warning btn-block" href="../index.html">Home</a>
+                      </fieldset>
+                    </form>
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+    <script type="text/javascript">
+    $(document).ready(function(){
+  $(document).mousemove(function(e){
+     TweenLite.to($('body'), 
+        .5, 
+        { css: 
+            {
+                backgroundPosition: ""+ parseInt(event.pageX/8) + "px "+parseInt(event.pageY/'12')+"px, "+parseInt(event.pageX/'15')+"px "+parseInt(event.pageY/'15')+"px, "+parseInt(event.pageX/'30')+"px "+parseInt(event.pageY/'30')+"px"
+            }
+        });
+  });
+});
+    </script>
+
+
+</body></html>

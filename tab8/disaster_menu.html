@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://bootsnipp.com/iframe/VxmR -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <style type="text/css">
+    body{
+    background: url(disaster.png);
+    background-attachment: fixed;   
+}
+
+.vertical-offset-100{
+    padding-top:100px;
+}
+    </style>
+  
+</head>
+<body>
+   
+<div class="container">
+    <div class="row vertical-offset-100">
+        <div class="col-md-4 col-md-offset-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <center><h3 class="panel-title">Disaster Menu</h3></center>
+                </div>
+                <div class="panel-body">
+                    <form accept-charset="UTF-8" role="form">
+                    <fieldset>
+                      
+                        <a class="btn btn-lg btn-success btn-block" href="disaster_menu1_content.html">1.Earthquake</a>
+                       
+                        <a class="btn btn-lg btn-warning btn-block" href="disaster_menu2_content.html">2.Drought</a>
+
+                        <a class="btn btn-lg btn-info btn-block" href="disaster_menu3_content.html">3.Fire</a>
+                       
+                        <a class="btn btn-lg btn-info btn-block" href="disaster_menu4_content.html">4.Cyclone</a>
+                       
+                        <a class="btn btn-lg btn-primary btn-block" href="disaster_menu5_content.html">5.Hail_stroms</a>
+                        <hr>
+                         <a class="btn btn-lg btn-danger btn-block" href="../index.html">Go Back</a>
+                      </fieldset>
+                    </form>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+    <script type="text/javascript">
+    $(document).ready(function(){
+  $(document).mousemove(function(e){
+     TweenLite.to($('body'), 
+        .5, 
+        { css: 
+            {
+                backgroundPosition: ""+ parseInt(event.pageX/8) + "px "+parseInt(event.pageY/'12')+"px, "+parseInt(event.pageX/'15')+"px "+parseInt(event.pageY/'15')+"px, "+parseInt(event.pageX/'30')+"px "+parseInt(event.pageY/'30')+"px"
+            }
+        });
+  });
+});
+    </script>
+
+
+</body></html>

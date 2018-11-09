@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://bootsnipp.com/iframe/VxmR -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>Title</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<style type="text/css">
+body{
+    background: url(../back.png);
+    background-color: #444;
+    background: url(../pinlayer2.png),url(../pinlayer1.png),url(../back.png);    
+}
+
+.vertical-offset-100{
+    padding-top:100px;
+}
+</style>
+
+<script type="text/javascript">
+window.alert = function(){};
+var defaultCSS = document.getElementById('bootstrap-css');
+function changeCSS(css){
+    if(css) $('head > link').filter(':first').replaceWith('<link rel="stylesheet" href="'+ css +'" type="text/css" />'); 
+    else $('head > link').filter(':first').replaceWith(defaultCSS); 
+}
+$( document ).ready(function() {
+  var iframe_height = parseInt($('html').height()); 
+  window.parent.postMessage( iframe_height, 'http://bootsnipp.com');
+});
+</script>
+</head>
+<body style="background-position: 60px 26px, 32px 50%;">
+
+    <div class="container">
+        <div class="row vertical-offset-100">
+            <div class="col-md-4 col-md-offset-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <center><h3 class="panel-title">Fundamental Rights</h3></center>
+                    </div>
+                    <div class="panel-body" style="background-color: white;">
+                        <p>
+                            <b><big>    Fundamental rights in India                     </b></big> <br>    
+                            1. <b>Right to equality </b>Which includes equality before law, prohibition of discrimination on grounds of religion, race, caste, gender or place of birth<br>
+                            2. <b>Right to freedom</b> Which includes speech and expression, assembly, association, movement, residence, and right to practice any profession or occupation<br>
+                            3. <b>Right against exploitation</b>Which prohibits all forms of forced labour, child labour and traffic in human beings;<br>
+                            4. <b>Right to freedom of religion</b> Which includes freedom of conscience and free profession, practice, and propagation of religion<br>
+                            5. <b>Cultural and Educational rights</b>
+                            Preserve the right of any section of citizens to conserve their culture, language or script.<br>
+                            6. <b>Right to constitutional remedies</b>
+                            Which is present for enforcement of Fundamental Rights.<br>
+                            7. <b>Right to elementary education</b>
+                            Which implies that any child between the age of 6 to 14 should and can be educated.<br>
+                            8. <b>Right to Information</b>.It provide you to ask for any information regarding any govt service or scheme.<br>
+
+                                 
+
+                        </p>
+
+                        <form accept-charset="UTF-8" role="form">
+                            <fieldset>
+
+                              <hr>
+                              <a class="btn btn-lg btn-danger btn-block" href="indian_democracy_menu.html">Go Back</a>
+                              <a class="btn btn-lg btn-warning btn-block" href="../index.html">Home</a>
+                          </fieldset>
+                      </form>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+  </div>
+  <script type="text/javascript">
+  $(document).ready(function(){
+      $(document).mousemove(function(e){
+       TweenLite.to($('body'), 
+        .5, 
+        { css: 
+            {
+                backgroundPosition: ""+ parseInt(event.pageX/8) + "px "+parseInt(event.pageY/'12')+"px, "+parseInt(event.pageX/'15')+"px "+parseInt(event.pageY/'15')+"px, "+parseInt(event.pageX/'30')+"px "+parseInt(event.pageY/'30')+"px"
+            }
+        });
+   });
+  });
+  </script>
+
+
+</body></html>
